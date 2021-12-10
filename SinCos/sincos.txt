@@ -1,0 +1,18 @@
+\begin{eqnarray*}
+  \sin \left(\frac{\pi x}{2} \right) &=& \sin(w) \\
+                 &=& \sum_{i=0}^{\infty} \frac{(-1)^i w^{2 i +1}}{(2 i +1)!} \\
+                 &=& w  \left( \sum_{i=0}^{\infty} \frac{(-1)^i w^{2 i}}{(2 i +1)!}  \right) \\
+                 &=& w  \left( \sum_{i=0}^{\infty} \frac{w^{4 i}}{(4 i +1)!} - \frac{w^{4 i + 2}}{(4 i + 3)!}  \right) \\
+                 &=& w  \left( \sum_{i=0}^{\infty} \frac{(4 i + 2) (4 i + 3) w^{4 i}}{(4 i +3)!} - \frac{w^{4 i + 2}}{(4 i + 3)!}  \right) \\
+                 &=& w  \left( \sum_{i=0}^{\infty} \frac{w^{4 i}}{(4 i + 3)!} \left( (4 i + 2) (4 i + 3) - w^2 \right)  \right) \\
+\end{eqnarray*}
+
+\begin{eqnarray*}
+  \sin \left(\frac{\pi (x+1)}{2} \right) &=& \cos(w) \\
+                 &=& \sum_{i=0}^{\infty} \frac{(-1)^i w^{2 i}}{(2 i)!} \\
+                 &=& 1 + \sum_{i=1}^{\infty} \frac{(-1)^i w^{2 i}}{(2 i)!} \\
+                 &=& 1 - \sum_{i=0}^{\infty} \frac{(-1)^i w^{2 i + 2}}{(2 i + 2)!} \\
+                 &=& 1 - \left( \sum_{i=0}^{\infty} \frac{w^{4 i + 2}}{(4 i + 2)!} - \frac{w^{4 i + 4}}{(4 i + 4)!} \right) \\
+                 &=& 1 - \left( \sum_{i=0}^{\infty} \frac{(4 i + 3) (4 i + 4) w^{4 i + 2}}{(4 i + 4)!} - \frac{w^{4 i + 4}}{(4 i + 4)!} \right) \\
+                 &=& 1 - \left( \sum_{i=0}^{\infty} \frac{w^{4 i + 2}}{(4 i + 4)!} \left( (4 i + 3) (4 i + 4) - w^2 \right)  \right) \\
+\end{eqnarray*}
