@@ -2,4 +2,4 @@
 
 ## SinCos
 
-![sincos](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/tree/main/SinCos)  
+[sincos](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/tree/main/SinCos)  
