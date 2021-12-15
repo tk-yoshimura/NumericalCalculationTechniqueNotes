@@ -74,5 +74,5 @@
 
 \begin{eqnarray*}
   I_{\nu + 1}(x)&=&-\frac{2 \nu}{z} I_{\nu}(x) + I_{\nu - 1}(x) \\
-  I_{\nu-1}(x)&=&\frac{2 \nu}{z} I_{\nu}(x) - I_{\nu + 1}(x)
+  I_{\nu-1}(x)&=&\frac{2 \nu}{z} I_{\nu}(x) + I_{\nu + 1}(x)
 \end{eqnarray*}
