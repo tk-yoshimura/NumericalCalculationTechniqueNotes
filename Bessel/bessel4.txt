@@ -3,9 +3,9 @@
 \end{align*}
 
 \begin{eqnarray*}
-  c_i &=& \displaystyle \sum_{p=m-j}^{m} \frac{ P_{m, p} \cdot A_{p-m+j}}{(p+1) A_{p+1}} \\
+  c_i &=& \displaystyle \sum_{p=m-j}^{m} \frac{ P_{m, p} \cdot A_{p-m+j} (\nu)}{(p+1) A_{p+1} (\nu)} \\
       &=& \displaystyle \sum_{j=0}^{i} d'_{i, j} \nu^{2i}\\     
-  d_i &=& \frac{ P_{m, m-j} }{(m - j + 1) A_{m-j+1} } \\
+  d_i &=& \frac{ P_{m, m-j} }{(m - j + 1) A_{m-j+1} (\nu) } \\
       &=& e_i \displaystyle \prod_{\ell=0}^{i-1} \left( (m-\ell+1/2)^2 - \nu^2 \right) \\
 \end{eqnarray*}
 
