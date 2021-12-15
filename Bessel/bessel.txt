@@ -76,3 +76,8 @@
   I_{\nu + 1}(x)&=&-\frac{2 \nu}{z} I_{\nu}(x) + I_{\nu - 1}(x) \\
   I_{\nu-1}(x)&=&\frac{2 \nu}{z} I_{\nu}(x) + I_{\nu + 1}(x)
 \end{eqnarray*}
+
+\begin{eqnarray*}
+  K_{\nu + 1}(x)&=&\frac{2 \nu}{z} K_{\nu}(x) + K_{\nu - 1}(x) \\
+  K_{\nu - 1}(x)&=&-\frac{2 \nu}{z} K_{\nu}(x) + K_{\nu + 1}(x)
+\end{eqnarray*}
