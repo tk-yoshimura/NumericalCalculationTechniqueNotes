@@ -1,6 +1,6 @@
 # NumericalCalculationTechniqueNotes - Bessel
 
-# Limits
+# Limit x
 
 ## bessel J Y
 
@@ -16,7 +16,20 @@
 ![aterm3](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/aterm3.svg)  
 ![aterm4](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/aterm4.svg)  
 
-# Large X
+# Large x
+
+## bessel J Y I
+
+![largex_besselJYI1](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/largex_besselJYI1.svg)  
+![largex_besselJYI2](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/largex_besselJYI2.svg)  
+![largex_besselJYI3](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/largex_besselJYI3.svg)  
+![largex_besselJYI4](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/largex_besselJYI4.svg)  
+![largex_besselJYI5](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/largex_besselJYI5.svg)  
+![largex_besselJYI6](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/largex_besselJYI6.svg)  
+![largex_besselJYI7](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/largex_besselJYI7.svg)  
+
+### References
+[Recurrence Techniques for the Calculation of Bessel Functions, M. Goldstein, R. M. Thaler](https://www.ams.org/journals/mcom/1959-13-066/S0025-5718-1959-0105794-5/)
 
 ## bessel K
 
