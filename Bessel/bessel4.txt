@@ -25,5 +25,5 @@
 
 \begin{eqnarray*}
   P_{n, k} &=& (-1)^{n+k} \left( \begin{matrix} n \\ k \end{matrix} \right) \left( \begin{matrix} n+k \\ k \end{matrix} \right)~~~~(\text{Shifted Legendre polynomial coefficient}) \\
-  P_{n, k} &=& -\frac{n+k}{n-k} P_{n-1, k}, ~~P_{n, n}=-\frac{2}{n} P_{n, k-1}
+  P_{n, k} &=& -\frac{n+k}{n-k} P_{n-1, k}~~~(k<n), ~~P_{n, n}=-\frac{2}{n} P_{n, n-1}
 \end{eqnarray*}
