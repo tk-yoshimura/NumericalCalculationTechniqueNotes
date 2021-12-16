@@ -20,7 +20,7 @@
 \begin{eqnarray*}
   Y_{\alpha}(x) &=& \eta_0 J_{\alpha}(x) + \left( \frac{2}{\pi} \right) \left( \frac{2}{x} \right)^{2 \alpha} \sum_{m = 1}^{\infty} \eta_m J_{\alpha+2m}(x) \\
                 &\approx& \frac{1}{\lambda_{J}} \left( \eta_0 F_{\alpha}(x) + \left( \frac{2}{\pi} \right) \left( \frac{2}{x} \right)^{2 \alpha} \sum_{m = 1}^{M/2} \eta_m F_{\alpha+2m}(x) \right) \\
-  &&\eta_0 = \frac{1}{\tan(\alpha \pi)} - \frac{1}{\pi} \left(\frac{2}{x} \right)^{2 \alpha} \frac{ \Gamma^2 (1+\alpha) }{\nu}\\
+  &&\eta_0 = \frac{1}{\tan(\alpha \pi)} - \frac{1}{\pi} \left(\frac{2}{x} \right)^{2 \alpha} \frac{ \Gamma^2 (1+\alpha) }{\alpha}\\
   &&~~~~\lim_{\alpha \rightarrow 0} \eta_0 = \frac{2}{\pi} (\log(x/2) + \gamma) ~~~~(\gamma : \text{Euler's gamma}) \\
   &&\eta_1 = \left( \frac{\alpha + 2}{1-\alpha} \right)  \Gamma^2(1+\alpha) \\
   &&~~~~\lim_{\alpha \rightarrow 0} \eta_1 = 2 \\
