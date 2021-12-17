@@ -37,7 +37,60 @@
 ![largex_besselK2](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/largex_besselK2.svg)  
 ![largex_besselK3](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/largex_besselK3.svg)  
 ![largex_besselK4](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/largex_besselK4.svg)  
-![largex_besselK5](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/largex_besselK5.svg)  
+
+|m = 5||
+|----|----|
+| e 0,0 | 4.20000000e1 |
+| e 1,0 | 3.12375000e2 |
+| e 1,1 | 1.05000000e1 |
+| e 2,0 | 6.77906250e2 |
+| e 2,1 | 8.80833333e1 |
+| e 2,2 | 1.16666667e0 |
+| e 3,0 | 4.77083496e2 |
+| e 3,1 | 1.89086589e2 |
+| e 3,2 | 1.02994792e1 |
+| e 3,3 | 7.29166667e-2 |
+| e 4,0 | 8.54349060e1 |
+| e 4,1 | 1.03559733e2 |
+| e 4,2 | 1.86468099e1 |
+| e 4,3 | 6.22395833e-1 |
+| e 4,4 | 2.60416667e-3 |
+| e 5,0 | 1.52618980e0 |
+| e 5,1 | 7.58362172e0 |
+| e 5,2 | 5.07502577e0 |
+| e 5,3 | 6.81363932e-1 |
+| e 5,4 | 1.77408854e-2 |
+| e 5,5 | 4.34027778e-5 |
+
+| m=5, nu=1/4 ||
+|----|----|
+| c 0 | 4.20000000e1 |
+| c 1 | 3.13031250e2 |
+| c 2 | 6.83416016e2 |
+| c 3 | 4.88941658e2 |
+| c 4 | 9.19803804e1 |
+| c 5 | 2.02015710e0 |
+| d 0 | 4.20000000e1 |
+| d 1 | 3.16968750e2 |
+| d 2 | 7.10978516e2 |
+| d 3 | 5.41565666e2 |
+| d 4 | 1.19676341e2 |
+| d 5 | 4.36319995e0 |
+
+| m=5, nu=0 ||
+|----|----|
+| c 0 | 7.33622633e1 |
+| c 1 | 5.45631834e2 |
+| c 2 | 1.18411278e3 |
+| c 3 | 8.33331549e2 |
+| c 4 | 1.49230906e2 |
+| c 5 | 2.66582710e0 |
+| d 0 | 7.33622633e1 |
+| d 1 | 5.54802116e2 |
+| d 2 | 1.24830476e3 |
+| d 3 | 9.55733333e2 |
+| d 4 | 2.13333333e2 |
+| d 5 | 8.00000000e0 |
 
 ### References
 [τ-methodによる複素変数のベッセル関数Kn(z)の数値計算, 吉田年雄, 二宮市三](https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201602016064662431)  
