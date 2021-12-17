@@ -31,12 +31,12 @@
 
 \begin{eqnarray*}
   Y_{\alpha+1}(x) &=& \xi_0 J_{\alpha}(x) + \xi_1 J_{\alpha + 1}(x) + \left( \frac{2}{\pi} \right) \left( \frac{2}{x} \right)^{2 \alpha} \sum_{m = 2}^{\infty} \xi_m J_{\alpha+m}(x) \\
-                &\approx& \frac{1}{\lambda_{J}} \left( \xi_0 F_{\alpha}(x) + \xi_1 F_{\alpha + 1}(x) + \left( \frac{2}{\pi} \right) \left( \frac{2}{x} \right)^{2 \alpha} \sum_{m = 2}^{M} \xi_m F_{\alpha+m}(x) \right) \\
+                &\approx& \frac{1}{\lambda_{J}} \left( \xi_0 F_{\alpha}(x) + \xi_1 F_{\alpha + 1}(x) + \left( \frac{2}{\pi} \right) \left( \frac{2}{x} \right)^{2 \alpha} \left( \frac{3 \alpha}{x} \left( \sum_{m = 1}^{M/2} \xi_{2m} F_{\alpha+2m}(x) \right) + \left( \sum_{m = 1}^{M/2} \xi_{2m+1} F_{\alpha+2m+1}(x) \right) \right) \right) \\
   &&\xi_0 = -\frac{1}{\pi} \left( \frac{2}{x} \right)^{1 + 2 \alpha} \Gamma^2(1+\alpha) \\
   &&~~~~\lim_{\alpha \rightarrow 0} \xi_0 = -\frac{2}{\pi x} \\
   &&\xi_1 = \frac{1}{\tan(\alpha \pi)} + \frac{1}{\pi} \left( \frac{2}{x} \right)^{2 \alpha} \left( \frac{\alpha^2+\alpha+1}{\alpha(\alpha-1)} \right) \Gamma^2(1+\alpha) \\
   &&~~~~\lim_{\alpha \rightarrow 0} \xi_1 = \frac{2}{\pi} (\log(x/2) + \gamma - 1) \\
-  &&\xi_{2m} = \frac{3 \alpha}{x} \eta_{m} \\
+  &&\xi_{2m} = \eta_{m} \\
   &&\xi_{2m+1}=\frac{1}{2} \left( {\eta_{m} - \eta_{m+1}} \right) \\
   && ~~~~~~~~~~~\, = -(-1)^m \frac{1}{2} \frac{\Gamma(\alpha+m) \Gamma(1+\alpha) \displaystyle \prod_{k=1}^{m-1} (2\alpha+k)}{m! \displaystyle \prod_{k=1}^{m} (k-\alpha)} 
                                          \left((\alpha+2m) + \frac{(\alpha+m)(2 \alpha + m)(\alpha+2m+2)}{(m+1) (m+1-\alpha)} \right) ~~~~(m \geq 1) \\
