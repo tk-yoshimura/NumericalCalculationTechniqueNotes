@@ -1,9 +1,9 @@
 \begin{eqnarray*}
-  \frac{ e^{-x^2} }{ \mathrm{erfc}(x) } \approx \left( 1+\displaystyle \sum_{i=1}^{N} x^i c_i \right) \bigg/ \left( 1+\displaystyle \sum_{i=1}^{N} x^i d_i \right)
+  \frac{ \sqrt{\pi} \mathrm{erf}(x) }{ 2 x } \approx \left( 1+\displaystyle \sum_{i=1}^{N} x^{2 i} c_i \right) \bigg/ \left( 1+\displaystyle \sum_{i=1}^{N} x^{2 i} d_i \right)
 \end{eqnarray*}
 
 \begin{eqnarray*}
-  \frac{ \sqrt{\pi} \mathrm{erf}(x) }{ 2 x } \approx \left( 1+\displaystyle \sum_{i=1}^{N} x^{2 i} c_i \right) \bigg/ \left( 1+\displaystyle \sum_{i=1}^{N} x^{2 i} d_i \right)
+  \frac{ e^{-x^2} }{ \mathrm{erfc}(x) } \approx \left( 1+\displaystyle \sum_{i=1}^{N} x^i c_i \right) \bigg/ \left( 1+\displaystyle \sum_{i=1}^{N} x^i d_i \right)
 \end{eqnarray*}
 
 \begin{eqnarray*}

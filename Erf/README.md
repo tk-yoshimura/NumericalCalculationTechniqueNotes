@@ -6,9 +6,16 @@ When |x| &lt; 1/2 Erf(x) uses the Pade approximation.
 
 ![erf1](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Erf/erf1.svg)  
 
+|N=4|c|d|
+|----|----|----|
+|1 |1.1358598029374399146502924032728416156186186657155975963448126275e-1|4.4691931362707732479836257366061749489519519990489309296781459609e-1|
+|2 |3.5120065593369200841392307588552010249465428527643997057912324431e-2|8.4093170135728309107513165475424508547863828495941694713850523126e-2|
+|3 |8.6920866631386583349826014352914727400009681446578607076355950884e-4|8.0178578250393792466425817454660434909113767988141845357417980852e-3|
+|4 |5.8579083804022489287024065670602771336965850150405788944030025074e-5|3.3318775435462466917652355747809618615796468255259898479124735136e-4|
+
 # Erfc
 
-When 1/2 &leq; x &lt; 2 Erfc(x) uses the Pade approximation.  
+When 1/2 &leq; x &lt; [2, 4] Erfc(x) uses the Pade approximation.  
 
 ![erfc1](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Erf/erfc1.svg)  
 
@@ -70,7 +77,7 @@ When 1/2 &leq; x &lt; 2 Erfc(x) uses the Pade approximation.
 |20|6.8188176000929286060684085432303033856686624055616918652003189560e-14|2.5662850100320731076613523251785266861535279711266008194843348645e-25|
 
 
-When x &gt; 2 Erfc(x) uses the continued fraction.  
+When x &gt; [2, 4] Erfc(x) uses the continued fraction.  
 
 ![erfc2](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Erf/erfc2.svg)  
 ![erfc3](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Erf/erfc3.svg)  
