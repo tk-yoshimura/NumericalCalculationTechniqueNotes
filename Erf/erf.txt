@@ -1,0 +1,19 @@
+\begin{eqnarray*}
+  \frac{ e^{-x^2} }{ \mathrm{erfc}(x) } \approx \left( 1+\displaystyle \sum_{i=1}^{N} x^i c_i \right) \bigg/ \left( 1+\displaystyle \sum_{i=1}^{N} x^i d_i \right)
+\end{eqnarray*}
+
+\begin{eqnarray*}
+  \frac{ \sqrt{\pi} \mathrm{erf}(x) }{ 2 x } \approx \left( 1+\displaystyle \sum_{i=1}^{N} x^{2 i} c_i \right) \bigg/ \left( 1+\displaystyle \sum_{i=1}^{N} x^{2 i} d_i \right)
+\end{eqnarray*}
+
+\begin{eqnarray*}
+  \mathrm{erfc}(x) = \dfrac{x}{\sqrt{\pi}} e^{-x^2} \dfrac{1}{ F_1(x) }}}
+\end{eqnarray*}
+
+\begin{eqnarray*}
+  F_n(x)&=&x^2+\dfrac{n}{2+\dfrac{n+1}{F_{n+2}(x)}} \\
+        &=&x^2+\frac{n F_{n+2}(x)}{2 F_{n+2}(x) + n + 1} \\
+        &=&x^2+\dfrac{n}{2+\dfrac{n+1}{&x^2+\dfrac{n+2}{2+\dfrac{n+3}{F_{n+4}(x)}}}} \\
+        &=&x^2+n \frac{(n+3 + 2 F_{n+4}(x)) x^2 + (n+2) F_{n+4}(x)}
+                      { (4 F_{n+4}(x) +2 n+6) x^2 + (4 n + 6) F_{n+4}(x) + (n+1)(n+3) }
+\end{eqnarray*}
