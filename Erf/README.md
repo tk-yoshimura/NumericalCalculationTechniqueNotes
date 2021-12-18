@@ -6,6 +6,7 @@ When |x| &lt; 1/2 Erf(x) uses the Pade approximation.
 
 ![erf1](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Erf/erf1.svg)  
 ![erf2](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Erf/erf2.svg)  
+![erf3](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Erf/erf3.svg)  
 
 |N=4|c|d|
 |----|----|----|
