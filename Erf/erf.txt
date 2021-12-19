@@ -14,6 +14,6 @@
   F_n(x)&=&x^2+\dfrac{n}{2+\dfrac{n+1}{F_{n+2}(x)}} \\
         &=&x^2+\frac{n F_{n+2}(x)}{2 F_{n+2}(x) + n + 1} \\
         &=&x^2+\dfrac{n}{2+\dfrac{n+1}{&x^2+\dfrac{n+2}{2+\dfrac{n+3}{F_{n+4}(x)}}}} \\
-        &=&x^2+n \frac{(n+3 + 2 F_{n+4}(x)) x^2 + (n+2) F_{n+4}(x)}
-                      { (4 F_{n+4}(x) +2 n+6) x^2 + (4 n + 6) F_{n+4}(x) + (n+1)(n+3) }
+        &=&x^2+\frac{n \left( (2 F_{n+4}(x) + n + 3) x^2 + (n+2) F_{n+4}(x) \right)}
+                      { 2(2 F_{n+4}(x) + n + 3) x^2 + (4 n + 6) F_{n+4}(x) + (n+1)(n+3) }
 \end{eqnarray*}
