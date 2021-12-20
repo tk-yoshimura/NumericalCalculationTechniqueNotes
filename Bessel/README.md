@@ -65,4 +65,15 @@
 ### References
 [τ-methodによる複素変数のベッセル関数Kn(z)の数値計算, 吉田年雄, 二宮市三](https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201602016064662431)  
 [xが大きい場合の変形ベッセル関数Kν(x)の数値計算, 吉田年雄, 二宮市三](https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200902097152448770)  
-[xが小さい場合の変形ベッセル関数Kν(x)の数値計算, 吉田年雄, 二宮市三](https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200902000727324463)  
+
+# Near zero x
+
+## bessel J
+
+![nz_besselJ](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/nz_besselJ.svg)  
+
+## bessel Y
+
+![nz_besselY1](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/nz_besselY1.svg)  
+![nz_besselY2](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/nz_besselY2.svg)  
+![nz_besselY3](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/nz_besselY3.svg)  

@@ -50,7 +50,7 @@ When |x| &lt; 1/2 Erf(x) uses the Pade approximation.
 
 # Erfc
 
-When 1/2 &leq; x &lt; [2, 4] Erfc(x) uses the Pade approximation.  
+When 1/2 &leq; x &lt; 2 Erfc(x) uses the Pade approximation.  
 
 ![erfc1](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Erf/erfc1.svg)  
 ![erfc4](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Erf/erfc4.svg)  
@@ -140,7 +140,16 @@ When 1/2 &leq; x &lt; [2, 4] Erfc(x) uses the Pade approximation.
 |23|1.9040135669612827013504771519923237157512404502618807415058407717e-15|1.0278193836775820910153938747140420202688778105043265136604556695e-17|
 |24|1.8217624246414484892674557775620099256507807560287085979418610386e-17|3.5349273791929651885672921754359875492910096794094656522132653674e-31|
 
-When x &gt; [2, 4] Erfc(x) uses the continued fraction.  
+When 2 &leq; x &lt; 6 Erfc(x) uses the Taylor series.  
+
+in maxima:  
+inv_erfcx(x):=exp(-x^2)/erfc(x);  
+wxplot2d([inv_erfcx(x), sqrt(%pi)*x], [x,0,16])$  
+fpprec : 128;  
+taylor(inv_erfcx(x), x, 1, 18);  
+bfloat(%);  
+
+When x &gt; 6 Erfc(x) uses the continued fraction.  
 
 ![erfc2](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Erf/erfc2.svg)  
 ![erfc3](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Erf/erfc3.svg)  
