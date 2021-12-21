@@ -47,9 +47,9 @@
 \end{eqnarray*}
 
 \begin{eqnarray*}
-  K_{0}(x)&=& \sum_{m=0}^{\infty} \frac{x^{2 m}}{4^m (k!)^2} \left(\log(x/2)+ \psi(m+1) \right)
+  K_{0}(x)&=& \sum_{m=0}^{\infty} \frac{x^{2 m}}{4^m (m!)^2} \left(- \log(x/2)+ \psi(m+1) \right)
 \end{eqnarray*}
 
 \begin{eqnarray*}
-  K_{1}(x)&=& \frac{1}{x} + \frac{1}{2} \sum_{m=0}^{\infty} \frac{x^{2 m}}{4^m k!(k+1)!} \left(\log(x/2)- \frac{\psi(m+1) + \psi(m+2)}{2} \right)
+  K_{1}(x)&=& \frac{1}{x} + \frac{x}{2} \sum_{m=0}^{\infty} \frac{x^{2 m}}{4^m m!(m+1)!} \left(\log(x/2)- \frac{\psi(m+1) + \psi(m+2)}{2} \right)
 \end{eqnarray*}
