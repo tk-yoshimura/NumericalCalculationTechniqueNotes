@@ -5,10 +5,10 @@
 \end{eqnarray*}
 
 \begin{eqnarray*}
-  S(r, \nu, x) &=& \frac{x^{2 \nu} \cos(\nu \pi) (r-\nu) \Gamma(r-\nu) (x^2-4r^2-4 \nu r) -4^\nu (r+\nu) \Gamma(r+\nu) (x^2-4r^2+4 \nu r)} {4 (2 x)^\nu r (r-\nu) (r+\nu) \Gamma(r-\nu) \Gamma(r+\nu)} \\
-               &=& \frac{P A_{-} (x^2-4r^2-4 \nu r) - Q A_{+} (x^2-4r^2+4 \nu r)} {4 (2 x)^\nu r A_{-} A_{+}} \\
-               &=& \frac{(x^2-4r^2) \left( P A_{-} - Q A_{+} \right) - 4 \nu r \left( P A_{-} + Q A_{+} \right) } {r R A_{-} A_{+}} \\
+  S(r, \nu, x) &=& -\frac{x^{2 \nu} \cos(\nu \pi) (r-\nu) \Gamma(r-\nu) (x^2-4r^2-4 \nu r) -4^\nu (r+\nu) \Gamma(r+\nu) (x^2-4r^2+4 \nu r)} {4 (2 x)^\nu r (r-\nu) (r+\nu) \Gamma(r-\nu) \Gamma(r+\nu)} \\
+               &=& -\frac{P A_{-} (x^2-4r^2-4 \nu r) - Q A_{+} (x^2-4r^2+4 \nu r)} {4 (2 x)^\nu r A_{-} A_{+}} \\
+               &=& -\frac{(x^2-4r^2) \left( P A_{-} - Q A_{+} \right) - 4 \nu r \left( P A_{-} + Q A_{+} \right) } {r R A_{-} A_{+}} \\
                && ~~~~ \left( P:=x^{2 \nu} \cos(\nu \pi),~ Q:=4^\nu,~ R:=4 (2 x)^\nu,~ A_{\pm}:=(r\pm\nu) \Gamma(r\pm\nu) \right) \\
-               &=& \frac{(x^2-4r^2) \left( P - Q A_{+/-} \right) - 4 \nu r \left( P + Q A_{+/-} \right) } {r R A_{+}} \\
+               &=& -\frac{(x^2-4r^2) \left( P - Q A_{+/-} \right) - 4 \nu r \left( P + Q A_{+/-} \right) } {r R A_{+}} \\
                && ~~~~ \left( A_{+/-}= A_{+}/A_{-} \right)
 \end{eqnarray*}
