@@ -77,6 +77,8 @@
 ![nz_besselY1](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/nz_besselY1.svg)  
 ![nz_besselY2](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/nz_besselY2.svg)  
 ![nz_besselY3](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/nz_besselY3.svg)  
+![nz_besselY4](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/nz_besselY4.svg)  
+![nz_besselY5](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/nz_besselY5.svg)  
 
 ## bessel I
 
