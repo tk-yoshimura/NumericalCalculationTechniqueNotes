@@ -24,7 +24,7 @@
 
 \begin{eqnarray*}
     (1/\Delta)^{(0)} &=& 1/\Delta \\
-    (1/\Delta)' &=& -\frac{f'(x)}{\Delta^2} \\
-    (1/\Delta)'' &=&-\frac{f''(x)}{\Delta^2}+2 \frac{f'(x)^2}{\Delta^3} \\
+    (1/\Delta)' &=& -\frac{f'(x_n)}{\Delta^2} \\
+    (1/\Delta)'' &=&-\frac{f''(x_n)}{\Delta^2}+2 \frac{f'(x_n)^2}{\Delta^3} \\
     && ~~~~ \vdots
 \end{eqnarray*}
