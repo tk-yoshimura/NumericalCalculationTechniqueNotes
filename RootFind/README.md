@@ -18,5 +18,5 @@ Newton-Raphson Method:
 Halley Method:  
 ![halley](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/RootFind/rootfind_halley.svg)  
 
-Householder order 4 Method:  
-![householder4](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/RootFind/rootfind_householder4.svg)  
+Householder order 3 Method:  
+![householder3](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/RootFind/rootfind_householder3.svg)  
