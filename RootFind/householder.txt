@@ -15,7 +15,7 @@
 \end{eqnarray*}
 
 \begin{eqnarray*}
-    x_{n+1} = x_{n} - \cfrac{\Delta}{f'(x_n) - \Delta \cfrac{3 f'(x_n) f''(x_n) - \Delta f'''(x)}{6 f'(x_n)^2-3 \Delta f''(x)}}
+    x_{n+1} = x_{n} - \cfrac{\Delta}{f'(x_n) - \Delta \cfrac{3 f'(x_n) f''(x_n) - \Delta f'''(x_n)}{6 f'(x_n)^2-3 \Delta f''(x_n)}}
 \end{eqnarray*}
 
 \begin{eqnarray*}
