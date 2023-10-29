@@ -1,0 +1,19 @@
+\begin{eqnarray*}
+    f(x) - a = 0
+\end{eqnarray*}
+
+\begin{eqnarray*}
+    \Delta := f(x_n) - a
+\end{eqnarray*}
+
+\begin{eqnarray*}
+    x_{n+1} = x_{n} - \frac{\Delta}{f'(x_n)}
+\end{eqnarray*}
+
+\begin{eqnarray*}
+    x_{n+1} = x_{n} - \frac{\Delta}{f'(x_n) - \Delta \cfrac{f''(x_n)}{2 f'(x_n)}}
+\end{eqnarray*}
+
+\begin{eqnarray*}
+    x_{n+1} = x_{n} - \cfrac{\Delta}{f'(x_n) - \Delta \cfrac{3 f'(x_n) f''(x_n) - \Delta f'''(x)}{6 f'(x_n)^2-3 \Delta f''(x)}}
+\end{eqnarray*}
