@@ -17,3 +17,14 @@
 \begin{eqnarray*}
     x_{n+1} = x_{n} - \cfrac{\Delta}{f'(x_n) - \Delta \cfrac{3 f'(x_n) f''(x_n) - \Delta f'''(x)}{6 f'(x_n)^2-3 \Delta f''(x)}}
 \end{eqnarray*}
+
+\begin{eqnarray*}
+    x_{n+1} &=& x_{n} + D \cfrac{(1/\Delta)^{(D-1)}}{(1/\Delta)^{(D)}}
+\end{eqnarray*}
+
+\begin{eqnarray*}
+    (1/\Delta)^{(0)} &=& 1/\Delta \\
+    (1/\Delta)' &=& -\frac{f'(x)}{\Delta^2} \\
+    (1/\Delta)'' &=&-\frac{f''(x)}{\Delta^2}+2 \frac{f'(x)^2}{\Delta^3} \\
+    && ~~~~ \vdots
+\end{eqnarray*}

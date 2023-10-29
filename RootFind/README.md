@@ -20,3 +20,9 @@ Halley Method:
 
 Householder order 3 Method:  
 ![householder3](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/RootFind/rootfind_householder3.svg)  
+
+## In General
+
+![general](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/RootFind/rootfind_general.svg)  
+
+![derivative](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/RootFind/rootfind_derivative.svg)  
