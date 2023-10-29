@@ -14,3 +14,5 @@ Halley Method:
 
 Householder order 4 Method:  
 ![householder4](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/RootFind/rootfind_householder4.svg)  
+
+Convergence becomes unstable when the term with &Delta; in the numerator approaches or exceeds f'(x<sub>n</sub>).
