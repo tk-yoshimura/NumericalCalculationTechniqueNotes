@@ -4,9 +4,9 @@
 
 When |x| &lt; 1/2 Erf(x) uses the Pade approximation.  
 
-![erf1](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Erf/erf1.svg)  
-![erf2](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Erf/erf2.svg)  
-![erf3](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Erf/erf3.svg)  
+![erf1](erf1.svg)  
+![erf2](erf2.svg)  
+![erf3](erf3.svg)  
 
 |N=4|c|d|
 |----|----|----|
@@ -52,9 +52,9 @@ When |x| &lt; 1/2 Erf(x) uses the Pade approximation.
 
 When 1/2 &leq; x &lt; 2 Erfc(x) uses the Pade approximation.  
 
-![erfc1](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Erf/erfc1.svg)  
-![erfc4](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Erf/erfc4.svg)  
-![erfc5](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Erf/erfc5.svg)  
+![erfc1](erfc1.svg)  
+![erfc4](erfc4.svg)  
+![erfc5](erfc5.svg)  
 
 |N=12|c|d|
 |----|----|----|
@@ -151,5 +151,5 @@ bfloat(%);
 
 When x &gt; 6 Erfc(x) uses the continued fraction.  
 
-![erfc2](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Erf/erfc2.svg)  
-![erfc3](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Erf/erfc3.svg)  
+![erfc2](erfc2.svg)  
+![erfc3](erfc3.svg)  

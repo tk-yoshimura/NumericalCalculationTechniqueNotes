@@ -4,39 +4,39 @@
 
 ## bessel J Y
 
-![besselJY](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/limit_besselJY.svg)  
+![besselJY](limit_besselJY.svg)  
 
-![aterm1](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/aterm1.svg)  
-![aterm2](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/aterm2.svg)  
+![aterm1](aterm1.svg)  
+![aterm2](aterm2.svg)  
 
 ## bessel I K
 
-![besselIK](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/limit_besselIK.svg)  
+![besselIK](limit_besselIK.svg)  
 
-![aterm3](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/aterm3.svg)  
-![aterm4](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/aterm4.svg)  
+![aterm3](aterm3.svg)  
+![aterm4](aterm4.svg)  
 
 # Large x
 
 ## bessel J Y I
 
-![largex_besselJYI1](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/largex_besselJYI1.svg)  
-![largex_besselJYI2](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/largex_besselJYI2.svg)  
-![largex_besselJYI3](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/largex_besselJYI3.svg)  
-![largex_besselJYI4](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/largex_besselJYI4.svg)  
-![largex_besselJYI5](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/largex_besselJYI5.svg)  
-![largex_besselJYI6](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/largex_besselJYI6.svg)  
-![largex_besselJYI7](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/largex_besselJYI7.svg)  
+![largex_besselJYI1](largex_besselJYI1.svg)  
+![largex_besselJYI2](largex_besselJYI2.svg)  
+![largex_besselJYI3](largex_besselJYI3.svg)  
+![largex_besselJYI4](largex_besselJYI4.svg)  
+![largex_besselJYI5](largex_besselJYI5.svg)  
+![largex_besselJYI6](largex_besselJYI6.svg)  
+![largex_besselJYI7](largex_besselJYI7.svg)  
 
 ### References
 [Recurrence Techniques for the Calculation of Bessel Functions, M. Goldstein, R. M. Thaler](https://www.ams.org/journals/mcom/1959-13-066/S0025-5718-1959-0105794-5/)
 
 ## bessel K
 
-![largex_besselK1](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/largex_besselK1.svg)  
-![largex_besselK2](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/largex_besselK2.svg)  
-![largex_besselK3](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/largex_besselK3.svg)  
-![largex_besselK4](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/largex_besselK4.svg)  
+![largex_besselK1](largex_besselK1.svg)  
+![largex_besselK2](largex_besselK2.svg)  
+![largex_besselK3](largex_besselK3.svg)  
+![largex_besselK4](largex_besselK4.svg)  
 
 | m = 5 || m=5, nu=1/4 || m=5, nu=0 ||
 |----|----|----|----|----|----|
@@ -70,24 +70,26 @@
 
 ## bessel J
 
-![nz_besselJ](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/nz_besselJ.svg)  
+![nz_besselJ](nz_besselJ.svg)  
 
 ## bessel Y
 
-![nz_besselY1](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/nz_besselY1.svg)  
-![nz_besselY4](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/nz_besselY4.svg)  
-![nz_besselY5](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/nz_besselY5.svg)  
+![nz_besselY1](nz_besselY1.svg)  
+![nz_besselY4](nz_besselY4.svg)  
+![nz_besselY5](nz_besselY5.svg)  
 
-![nz_besselY2](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/nz_besselY2.svg)  
+![nz_besselY2](nz_besselY2.svg)  
 
-![nz_besselY3](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/nz_besselY3.svg)  
+![nz_besselY3](nz_besselY3.svg)  
+![nz_besselY6](nz_besselY6.svg)  
+![nz_besselY7](nz_besselY7.svg)  
 
 ## bessel I
 
-![nz_besselI](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/nz_besselI.svg)  
+![nz_besselI](nz_besselI.svg)  
 
 ## bessel K
 
-![nz_besselK1](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/nz_besselK1.svg)  
-![nz_besselK2](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/nz_besselK2.svg)  
-![nz_besselK3](https://github.com/tk-yoshimura/NumericalCalculationTechniqueNotes/blob/main/Bessel/nz_besselK3.svg)  
+![nz_besselK1](nz_besselK1.svg)  
+![nz_besselK2](nz_besselK2.svg)  
+![nz_besselK3](nz_besselK3.svg)  
